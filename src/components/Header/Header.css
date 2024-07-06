@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #fcfcfc;
+}
+
+.header img {
+    width: 100px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li a {
+    color: #005796;
+    font-weight: 900;
+}
