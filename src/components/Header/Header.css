@@ -1,21 +1,26 @@
-.header {
+.header{
+    background-color: #fcfcfc;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #fcfcfc;
+    width: 80%;
+    margin: auto;
 }
 
-.header img {
+.header-container img {
     width: 100px;
 }
 
-.header nav ul {
+.header-container nav ul {
     display: flex;
     gap: 20px;
 }
 
-.header nav ul li a {
+.header-container nav ul li a {
     color: #005796;
     font-weight: 900;
 }

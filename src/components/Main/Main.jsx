@@ -1,6 +1,12 @@
+import './Main.css'
+
 const Main = ({children}) => {
   return (
-    <main>{children}</main>
+    <main>
+      <div className='main-container'>
+        {children}
+      </div>
+    </main>
   )
 }
 
